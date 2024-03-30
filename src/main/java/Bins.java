@@ -3,8 +3,8 @@ import java.util.Map;
 
 public class Bins {
     private Map<Integer,Integer> diceTracker;
-    public Bins(Map<Integer,Integer> diceTracker) {
-        this.diceTracker = diceTracker;
+    public Bins() {
+        diceTracker = new HashMap<>();
     }
     public Map<Integer,Integer> getDiceTracker() {
         return diceTracker;
