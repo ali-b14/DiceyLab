@@ -15,12 +15,11 @@ public class Dice {
     }
 
 //    public static void main(String[] args) {
-//        Dice dice = new Dice();
-//        System.out.println(dice.tossAndSum());
+//        Dice dice = new Dice(2);
+//        System.out.println(dice.tossAndSum(2));
 //    }
 
     public Integer tossAndSum(int toss){
-        toss = 2;
         Integer sum = 0;
         Integer value;
         for (int i = 0; i < toss; i++) {
